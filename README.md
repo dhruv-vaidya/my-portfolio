@@ -28,12 +28,13 @@ CSS3
 JavaScript
 Font Awesome Icons
 Google Fonts
-📂 Project Structure
+## 📂 Project Structure
 
-my-portfolio
+```text
+my-portfolio/
 ├── index.html
 ├── style.css
-├── assets
+├── assets/
 │   ├── hero.jpeg
 │   ├── c1.jpg
 │   ├── c2.jpeg
@@ -41,6 +42,7 @@ my-portfolio
 │   ├── c4.jpg
 │   └── monster_energy_logo.jpg
 └── README.md
+```
 
 🚀 Sections Included
 Home
