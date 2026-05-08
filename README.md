@@ -29,6 +29,7 @@ JavaScript
 Font Awesome Icons
 Google Fonts
 📂 Project Structure
+
 my-portfolio/
 │
 ├── index.html
@@ -42,6 +43,7 @@ my-portfolio/
 │   └── monster_energy_logo.jpg
 │
 └── README.md
+
 🚀 Sections Included
 Home
 About Me
