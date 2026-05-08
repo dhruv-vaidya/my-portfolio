@@ -4,8 +4,13 @@ Dhruv Vaidya — Personal Portfolio
 Data Science Engineering Student • Creative Learner • Future Developer
 
 🌐 Live Website:
-<a href="https://dhruv-vaidya.github.io/my-portfolio/" target="_blank">Visit Portfolio</a>
+<div align="center">
 
+<a href="https://dhruv-vaidya.github.io/my-portfolio/" target="_blank">
+  <img src="https://img.shields.io/badge/Visit-Portfolio-blue?style=for-the-badge" />
+</a>
+
+</div>
 </div>
 ✨ About The Portfolio
 
