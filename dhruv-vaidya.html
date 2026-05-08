@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Vaidya | Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Dhruv ✦</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+    <div class="blob blob4"></div>
+    <div class="blob blob5"></div>
+    <div class="floating-shape fs1"></div>
+    <div class="floating-shape fs2"></div>
+    <div class="floating-shape fs3"></div>
+    <div class="floating-shape fs4"></div>
+
+    <div class="hero-content">
+      <div class="profile-ring">
+        <div class="profile-img-wrap">
+          <img src="assets/hero.jpeg" alt="Dhruv Vaidya"
+            style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+        </div>
+      </div>
+
+      <h1 class="hero-name">Dhruv Vaidya</h1>
+      <p class="hero-subtitle">1st Year Data Science Engineering Student</p>
+
+      <div class="typed-wrapper">
+        <span class="typed-text" id="typed"></span><span class="cursor"></span>
+      </div>
+
+      <blockquote class="hero-quote">
+        "Engineering is not only about building technology, it is about continuously learning, exploring ideas, and
+        creating solutions that improve the future."
+      </blockquote>
+
+      <div class="hero-desc">
+        <p>I love exploring new technologies, meeting new people, and learning from different experiences.</p>
+        <p>Traveling inspires me to think creatively and observe the world from different perspectives.</p>
+        <p>As an engineering student, I believe curiosity and creativity are the foundations of innovation.</p>
+      </div>
+
+      <div class="hero-btns">
+        <a href="#certificates" class="btn btn-primary"><i class="fas fa-folder-open"></i> View Portfolio</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-illustration reveal">
+          <img src="assets/monster_energy_logo.jpg" alt="Monster Energy Logo" class="about-monster-img">
+        </div>
+        <div class="reveal" style="transition-delay:.15s">
+          <span class="section-tag">Who Am I</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="about-card">
+            <h3>Hello, I'm Dhruv!</h3>
+            <p>I'm a passionate Data Science Engineering student in my first year, driven by curiosity and a love for
+              learning. I'm fascinated by the endless possibilities that technology offers.</p>
+            <p>My interests span across programming, development, and data visualization. I thrive in collaborative
+              environments where creativity meets technical thinking.</p>
+            <p>I believe in building impactful digital solutions that make a real difference, one line of code at a
+              time.</p>
+            <div class="about-tags">
+              <span class="tag tag-lav"><i class="fa-solid fa-laptop-code"></i> Programming</span>
+              <span class="tag tag-pink"><i class="fa-solid fa-palette"></i> Creative</span>
+              <span class="tag tag-mint"><i class="fa-solid fa-chart-pie"></i> Data Viz</span>
+              <span class="tag tag-sky"><i class="fa-solid fa-users"></i> Team Player</span>
+              <span class="tag tag-peach"><i class="fa-solid fa-rocket"></i> Innovator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-tag">Technical Expertise</span>
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-sub">Technologies and languages I've been learning and exploring on my engineering journey.
+        </p>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-solid fa-desktop"></i></div>
+          <div class="skill-name">C</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="70"></div>
+          </div>
+          <div class="skill-pct">70%</div>
+        </div>
+        <div class="skill-card reveal" style="transition-delay:.05s">
+          <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+          <div class="skill-name">Python</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="65"></div>
+          </div>
+          <div class="skill-pct">65%</div>
+        </div>
+        <div class="skill-card reveal" style="transition-delay:.1s">
+          <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="55"></div>
+          </div>
+          <div class="skill-pct">55%</div>
+        </div>
+        <div class="skill-card reveal" style="transition-delay:.15s">
+          <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="80"></div>
+          </div>
+          <div class="skill-pct">80%</div>
+        </div>
+        <div class="skill-card reveal" style="transition-delay:.2s">
+          <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="72"></div>
+          </div>
+          <div class="skill-pct">72%</div>
+        </div>
+        <div class="skill-card reveal" style="transition-delay:.25s">
+          <div class="skill-icon"><i class="fa-solid fa-chart-simple"></i></div>
+          <div class="skill-name">Data Visualization</div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-pct="60"></div>
+          </div>
+          <div class="skill-pct">60%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-sub">A showcase of my learning milestones and accomplishments.</p>
+      </div>
+      <div class="cert-grid" id="certGrid">
+        <!-- Placeholder certificates - replace cert-placeholder divs with <img> tags when you have actual certificate images -->
+        <div class="cert-card reveal" onclick="openLightbox(this)">
+          <div class="cert-img-wrap">
+            <img src="assets/c1.jpg" alt="AI Fluency for Students">
+            <div class="cert-overlay"><i class="fas fa-expand"></i></div>
+          </div>
+          <div class="cert-info">
+            <h4>AI Fluency for Students</h4>
+            <p>Anthropic · Certificate of Completion</p>
+          </div>
+        </div>
+        <div class="cert-card reveal" style="transition-delay:.1s" onclick="openLightbox(this)">
+          <div class="cert-img-wrap">
+            <img src="assets/c2.jpeg" alt="Claude 101">
+            <div class="cert-overlay"><i class="fas fa-expand"></i></div>
+          </div>
+          <div class="cert-info">
+            <h4>Claude 101</h4>
+            <p>Anthropic · Certificate of Completion</p>
+          </div>
+        </div>
+        <div class="cert-card reveal" style="transition-delay:.2s" onclick="openLightbox(this)">
+          <div class="cert-img-wrap">
+            <img src="assets/c3.jpg" alt="AI Fluency: Framework & Foundations">
+            <div class="cert-overlay"><i class="fas fa-expand"></i></div>
+          </div>
+          <div class="cert-info">
+            <h4>AI Fluency: Framework &amp; Foundations</h4>
+            <p>Anthropic · Certificate of Completion</p>
+          </div>
+        </div>
+        <div class="cert-card reveal" style="transition-delay:.3s" onclick="openLightbox(this)">
+          <div class="cert-img-wrap">
+            <img src="assets/c4.jpg" alt="AI Fluency for Nonprofits">
+            <div class="cert-overlay"><i class="fas fa-expand"></i></div>
+          </div>
+          <div class="cert-info">
+            <h4>AI Fluency for Nonprofits</h4>
+            <p>Anthropic &amp; GivingTuesday · Certificate of Completion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img src="" alt="Certificate" id="lightboxImg">
+  </div>
+
+  <!-- JOURNEY -->
+  <section id="journey">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-tag">Growth Path</span>
+        <h2 class="section-title">My Learning Journey</h2>
+      </div>
+      <p class="journey-quote reveal">
+        "Every small step in learning today becomes a big innovation tomorrow."
+      </p>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-icon"><i class="fa-solid fa-rocket"></i></div>
+            <h4>Exploring New Technologies</h4>
+            <p>Diving into the world of software engineering, discovering new languages and frameworks every day.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal" style="transition-delay:.1s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h4>Programming Concepts</h4>
+            <p>Building a strong foundation in C, C++, Python, and Java — understanding algorithms and logic.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal" style="transition-delay:.2s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-icon"><i class="fa-solid fa-palette"></i></div>
+            <h4>Building Creativity</h4>
+            <p>Merging engineering with creativity — designing web experiences with HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal" style="transition-delay:.3s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+            <h4>Problem-Solving Skills</h4>
+            <p>Tackling challenges, debugging code, and learning from every error — growing stronger with each problem.
+            </p>
+          </div>
+        </div>
+        <div class="tl-item reveal" style="transition-delay:.4s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-icon"><i class="fa-solid fa-globe"></i></div>
+            <h4>Web Development</h4>
+            <p>Exploring the front-end world, building responsive layouts, and creating aesthetic digital experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS -->
+  <section id="interests">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-tag">Passions</span>
+        <h2 class="section-title">My Interests</h2>
+        <p class="section-sub">The things that inspire and energize me beyond the classroom.</p>
+      </div>
+      <div class="interests-grid">
+        <div class="interest-card reveal">
+          <span class="interest-emoji"><i class="fa-solid fa-plane"></i></span>
+          <h4>Traveling</h4>
+          <p>Exploring new places, cultures, and perspectives that spark creativity and broaden my thinking.</p>
+        </div>
+        <div class="interest-card reveal" style="transition-delay:.1s">
+          <span class="interest-emoji"><i class="fa-solid fa-laptop-code"></i></span>
+          <h4>Exploring Technologies</h4>
+          <p>Always curious about the latest tech — from AI tools to new frameworks and digital innovations.</p>
+        </div>
+        <div class="interest-card reveal" style="transition-delay:.2s">
+          <span class="interest-emoji"><i class="fa-solid fa-handshake"></i></span>
+          <h4>Meeting New People</h4>
+          <p>Building connections, sharing ideas, and learning from people with diverse backgrounds and experiences.</p>
+        </div>
+        <div class="interest-card reveal" style="transition-delay:.3s">
+          <span class="interest-emoji"><i class="fa-solid fa-palette"></i></span>
+          <h4>Creative Thinking</h4>
+          <p>Finding unique approaches to problems, designing solutions that are both functional and beautiful.</p>
+        </div>
+        <div class="interest-card reveal" style="transition-delay:.4s">
+          <span class="interest-emoji"><i class="fa-solid fa-bolt"></i></span>
+          <h4>Engineering Innovation</h4>
+          <p>Imagining the future of technology and working towards building solutions that make an impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="blob blob1" style="opacity:.2"></div>
+    <div class="blob blob2" style="opacity:.15"></div>
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom:40px">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-wrap reveal">
+        <div class="contact-card">
+          <div class="contact-avatar"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Dhruv Vaidya</h3>
+          <p class="tagline">1st Year Data Science Engineering Student</p>
+
+          <a href="mailto:dhruvvaidya2006@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            dhruvvaidya2006@gmail.com
+          </a>
+
+          <div class="social-row">
+            <a href="https://www.linkedin.com/in/dhruv-vaidya-b2634a365?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-btn s-lav" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/_dhruv._.vaidya_" target="_blank" class="social-btn s-pink" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/dhruv-vaidya" target="_blank" class="social-btn s-sky" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+
+          <p class="contact-cta">"Let's connect, learn, and build something creative together."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-wave">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,30 C300,60 900,0 1200,30 L1200,0 L0,0 Z" fill="#f9f6f0" />
+      </svg>
+    </div>
+    <div class="footer-logo">Dhruv Vaidya ✦</div>
+    <p class="footer-sub">Data Science Engineering Student · Creative Learner · Future Developer</p>
+    <div class="footer-icons">
+      <a href="mailto:dhruvvaidya2006@gmail.com" class="footer-icon"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/dhruv-vaidya-b2634a365?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+        target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/dhruv-vaidya" target="_blank" class="footer-icon"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/_dhruv._.vaidya_" target="_blank" class="footer-icon"><i
+          class="fab fa-instagram"></i></a>
+    </div>
+    <p class="footer-copy">© 2026 <span>Dhruv Vaidya</span> | Portfolio Website — Made with <i class="fa-solid fa-heart"
+        style="color: var(--pink)"></i> & curiosity</p>
+  </footer>
+
+  <script>
+    /* ── TYPED EFFECT ── */
+    const phrases = [
+      'Data Science Engineering Student',
+      'Creative Learner',
+      'Future Developer',
+      'Exploring Technology & Innovation'
+    ];
+    let pIdx = 0, cIdx = 0, deleting = false;
+    const el = document.getElementById('typed');
+
+    function type() {
+      const word = phrases[pIdx];
+      if (!deleting) {
+        el.textContent = word.slice(0, ++cIdx);
+        if (cIdx === word.length) { deleting = true; setTimeout(type, 1800); return; }
+      } else {
+        el.textContent = word.slice(0, --cIdx);
+        if (cIdx === 0) { deleting = false; pIdx = (pIdx + 1) % phrases.length; }
+      }
+      setTimeout(type, deleting ? 60 : 80);
+    }
+    type();
+
+    /* ── NAV TOGGLE ── */
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    /* ── SCROLL REVEAL ── */
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          /* Animate skill bars */
+          const bar = e.target.querySelector('.skill-bar-fill');
+          if (bar) bar.style.width = bar.dataset.pct + '%';
+        }
+      });
+    }, { threshold: 0.15 });
+    reveals.forEach(r => obs.observe(r));
+
+    /* ── SKILL BARS (in case already visible) ── */
+    document.querySelectorAll('.skill-bar-fill').forEach(b => {
+      if (b.closest('.reveal.visible')) b.style.width = b.dataset.pct + '%';
+    });
+
+    /* ── LIGHTBOX ── */
+    function openLightbox(card) {
+      const img = card.querySelector('.cert-img-wrap img');
+      if (!img) return; // placeholder
+      document.getElementById('lightboxImg').src = img.src;
+      document.getElementById('lightbox').classList.add('open');
+    }
+    function closeLightbox(e) {
+      if (!e || e.target === document.getElementById('lightbox') || e.target.classList.contains('lightbox-close')) {
+        document.getElementById('lightbox').classList.remove('open');
+      }
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox({ target: document.getElementById('lightbox') }); });
+
+    /* ── SMOOTH NAV CLOSE ON LINK CLICK ── */
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+    });
+  </script>
+</body>
+
+</html>
