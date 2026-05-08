@@ -30,18 +30,16 @@ Font Awesome Icons
 Google Fonts
 📂 Project Structure
 
-my-portfolio/
-│
+my-portfolio
 ├── index.html
 ├── style.css
-├── assets/
+├── assets
 │   ├── hero.jpeg
 │   ├── c1.jpg
 │   ├── c2.jpeg
 │   ├── c3.jpg
 │   ├── c4.jpg
 │   └── monster_energy_logo.jpg
-│
 └── README.md
 
 🚀 Sections Included
